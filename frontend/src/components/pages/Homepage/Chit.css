@@ -1,0 +1,18 @@
+.chit-box {
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 90%;
+    height: auto; 
+    word-wrap: break-word;
+  }
+
+  .chit-header {
+    display: flex;
+    justify-content:flex-start;
+  } 
+
+  .chit-header * {
+    margin-right: 10px;
+  }

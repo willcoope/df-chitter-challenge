@@ -1,0 +1,23 @@
+POST http://localhost:4000/signup
+content-type: application/json
+
+{
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "johndoe@gmail.com",
+      "username": "realjohndoe",
+      "password": "password"
+}
+
+###
+
+POST http://localhost:4000/signup
+content-type: application/json
+
+{
+      "firstname": "Will",
+      "lastname": "Cooper",
+      "email": "willcooper@gmail.com",
+      "username": "will",
+      "password": "password"
+}

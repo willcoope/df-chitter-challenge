@@ -1,0 +1,14 @@
+img {
+    width: 50px;
+  }
+
+.collapse{
+  margin-left: 75%;
+
+}
+
+@media screen and (max-width: 600px) {
+  .collapse {
+    margin-left: 0;
+  }
+}

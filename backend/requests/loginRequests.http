@@ -1,0 +1,27 @@
+POST http://localhost:4000/login
+content-type: application/json
+
+{
+    "account": "nonuser",
+    "password": "nonpassword"
+}
+
+###
+
+POST http://localhost:4000/login
+content-type: application/json
+
+{
+    "account": "reallyjohndoe",
+    "password": "password"
+}
+
+###
+
+POST http://localhost:4000/login
+content-type: application/json
+
+{
+    "account": "johndoe@gmail.com",
+    "password": "password"
+}
